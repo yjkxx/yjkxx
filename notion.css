@@ -8,7 +8,7 @@ a {
   font-variant: normal;
   font-weight: 400;
   text-decoration: underline;
-  padding:3px;
+  padding:0px;
 }
 
 a:link{
@@ -24,6 +24,10 @@ a:hover{
     background-size: auto 4em;
     background-repeat: no-repeat;
     background-position: 0% 15px; 
+}
+
+d {
+  color: rgb(140, 140, 140);
 }
 
 body {
