@@ -32,16 +32,6 @@ body {
   font-weight: 500;
 }
 
-.dark-mode {
-  background-color: #3c3c3c;
-  color: white;
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
-}
-
 .title {
   width: 100%;
   padding-bottom: 10px;
@@ -298,4 +288,48 @@ th {
   border: 1px solid #333;
   text-align: left;
   padding: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(220, 220, 220);
+    background: #343434;
+  }
+
+  .title {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #cbcbcb;
+  }
+
+  .subtitle {
+    color: rgb(210, 210, 210);
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  
+  h2 {
+    color: rgb(255, 255, 255);
+  }
+
+  p {
+    color: rgb(220, 220, 220);
+  }
+
+  a {
+    color: rgb(220, 220, 220);
+  }
+  
+  a:link{
+    color: rgb(220, 220, 220);
+  }
+  
+  a:visited{
+    color: rgb(220, 220, 220);
+  }
+  
+  a:hover{
+      background: linear-gradient(rgb(110, 110, 110), rgb(135, 135, 135));
+  }
 }
