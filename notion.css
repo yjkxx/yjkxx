@@ -30,6 +30,11 @@ d {
   color: rgb(140, 140, 140);
 }
 
+c {
+  color: rgb(220, 220, 220);
+  font-size: 18px;
+}
+
 body {
   font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
     "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
@@ -190,10 +195,6 @@ input[type="radio"] {
   font-family: monospace;
   border-radius: 3px;
   line-height: 1.25;
-}
-
-pre {
-  padding: 0px;
 }
 
 blockquote {
